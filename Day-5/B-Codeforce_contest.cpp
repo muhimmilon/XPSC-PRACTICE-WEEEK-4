@@ -5,15 +5,14 @@ int main()
 {
     int t;
     cin >> t;
-
     while (t--)
     {
-        string a,b;
-        cin >> a >> b;
-        swap(a[0], b[0]);
-
-        cout << a << " " << b << "\n";
+        int n;
+        cin >> n;
+        
+        int opx = (n <= 3) ? n : 2;
+        
+        cout << opx << endl;
     }
-
     return 0;
 }
